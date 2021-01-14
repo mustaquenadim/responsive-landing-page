@@ -33,7 +33,7 @@ h5 {
 }
 /* header */
 #header {
-    height: 700px;
+    height: auto;
     padding: 50px 0px 70px 0px;
     background-color: #fff9f4;
 }
@@ -106,3 +106,9 @@ h5 {
     background-color: #ffffff;
 }
 /* end subscribe */
+
+/* footer */
+.custom-footer-margin {
+    background-color: #fdddc3"
+}
+/* end footer */
