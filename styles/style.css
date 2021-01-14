@@ -1,35 +1,23 @@
-/* default styles */
-nav {
-    background-color: transparent;
-    /* border: 1px solid; */
-}
 body {
     font-family: 'Roboto', sans-serif;
-}
-main {
-    background-color: #e5e5e5;
-}
-section {
-    height: auto;
-    /* border: 1px solid; */
+    background-color: #E5E5E5;
 }
 div {
-    vertical-align: middle;
-    /* border: 1px solid; */
+    display: block;
+    border: 1px solid;
 }
-/* h-series tags */
 h1 {
     font-family: 'Bebas Neue';
     font-size: 80px;
     color: #363958;
+    padding: 0px;
+    margin: 0px;
     /* border: 1px solid; */
 }
 h2 {
     font-family: 'Bebas Neue';
     font-size: 48px;
     color: #363958;
-    padding: 30px 0px;
-    /* border: 1px solid; */
 }
 h4 {
     font-family: 'Roboto';
@@ -43,94 +31,78 @@ h5 {
     font-weight: 1000;
     color: #363958;
 }
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: #3E3E3E;
-}
-/* end default styles */
-
-/* unique styles */
-
 /* header */
-nav ul li {
-    padding: 0px 20px;
-    /* border: 1px solid; */
-}
-nav a {
-    /* border: 1px solid; */
-}
-nav ul li a {
-    font-weight: 600;
-    color: #3c3c3c;
-    /* text-transform: uppercase; */
-    /* border: 1px solid; */
-}
-/* end header */
-
-/* body */
 #header {
-    padding: 0px 100px;
-}
-#cover, #header {
+    height: 700px;
+    padding: 50px 0px 70px 0px;
     background-color: #fff9f4;
 }
-#formal-shoes .custom-highlight, #casual-shoes .custom-highlight {
-    font-weight: 1500;
-    padding-right: 100px;
+#header span {
+    font-weight: 1000;
 }
-#services {
-    padding: 100px 0px;
+.custom-navbar {
+    background-color: #fff9f4;
 }
-/* end body */
-
-/* footer */
-/* end footer */
-/* end unique styles */
-
-/* common styles */
+.custom-ul {
+    text-align: center;
+    background-color: #fff9f4;
+}
+.custom-li {
+    font-weight: 700;
+    padding: 0px 25px;
+}
 .custom-logo {
     width: 15%;
 }
-.navbar-brand {
-    font-size: 20px;
-    font-weight: 700;
-}
-.custom-cover {
-    width: 100%;
-    padding: 25px 0px 110px 0px;
-}
-.custom-col {
-    margin-left: 100px;
-}
+/* end header */
+
+/* header, casual shoes, formal shoes */
 .custom-highlight {
     color: #ff8367;
 }
+.custom-btn {
+    background-color: #3D4FF3;
+    padding: 10px;
+    border: none;
+}
+/* end header, casual shoes, formal shoes */
+
+/* casual shoes, formal shoes */
 .custom-card {
-    width: 20%;
-    height: 550px;
     border-radius: 20px;
-    padding-top: 12px;
-    margin: 1%;
+    padding: 12px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border: none;
 }
-.custom-img {
+.custom-footer {
+    background-color: transparent;
+    border: none;
+}
+/* end casual shoes, formal shoes */
+
+/* casual shoes */
+.custom-bg {
     height: 350px;
     background: #F1F1F1;
     border-radius: 12px;
 }
-.price-button {
-    padding-top: 10px;
-}
-.custom-btn {
-    background-color: #3D4FF3;
-    color: white;
+/* end casual shoes */
+
+/* services section */
+.custom-img-width {
+    width: 80px;
+    /* border: 1px solid; */
 }
 .custom-service-card {
+    border-radius: 10px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-    border-radius: 15px;
     border: none;
 }
-/* end common styles */
+/* end services section */
+
+/* subscribe */
+#subscribe {
+    height: 500px;
+    background-color: #ffffff;
+}
+/* end subscribe */
