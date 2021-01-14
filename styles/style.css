@@ -31,6 +31,11 @@ h5 {
     font-weight: 1000;
     color: #363958;
 }
+a:hover {
+    transition: 1s;
+    box-shadow: box-shadow: 20px 20px 30px #3D4FF3;
+}
+
 /* header */
 #header {
     height: auto;
@@ -101,14 +106,17 @@ h5 {
 /* end services section */
 
 /* subscribe */
-#subscribe {
-    height: 500px;
-    background-color: #ffffff;
-}
 /* end subscribe */
 
 /* footer */
-.custom-footer-margin {
-    background-color: #fdddc3"
+#footer {
+    padding: 25px 0px;
+}
+footer h5 {
+    padding: 10px 0px;
+    /* border: 1px solid; */
+}
+#footer li a {
+    text-decoration: none;
 }
 /* end footer */
